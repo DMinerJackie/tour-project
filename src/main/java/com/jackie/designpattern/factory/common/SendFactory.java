@@ -5,6 +5,7 @@ import com.jackie.designpattern.factory.Sender;
 import com.jackie.designpattern.factory.SmsSender;
 
 /**
+ * 普通工厂模式，根据输入的类型决定输出相应的对象
  * Created by jackie on 18/1/2.
  */
 public class SendFactory {

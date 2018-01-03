@@ -1,20 +1,19 @@
-package com.jackie.designpattern.factory.multi;
+package com.jackie.designpattern.factory.staticf;
 
 import com.jackie.designpattern.factory.MailSender;
 import com.jackie.designpattern.factory.Sender;
 import com.jackie.designpattern.factory.SmsSender;
 
 /**
- * 多个工厂方法模式，工厂类提供多个工厂方法，分别创建对象
- * Created by jackie on 18/1/2.
+ * Created by jackie on 18/1/3.
  */
 public class SendFactory {
 
-    public Sender produceMail() {
+    public static Sender produceMail() {
         return new MailSender();
     }
 
-    public Sender produceSms() {
+    public static Sender produceSms() {
         return new SmsSender();
     }
 }
