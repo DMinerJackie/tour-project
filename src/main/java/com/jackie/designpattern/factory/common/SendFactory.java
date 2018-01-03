@@ -1,8 +1,8 @@
 package com.jackie.designpattern.factory.common;
 
-import com.jackie.designpattern.factory.MailSender;
-import com.jackie.designpattern.factory.Sender;
-import com.jackie.designpattern.factory.SmsSender;
+import com.jackie.designpattern.MailSender;
+import com.jackie.designpattern.Sender;
+import com.jackie.designpattern.SmsSender;
 
 /**
  * 普通工厂模式，根据输入的类型决定输出相应的对象

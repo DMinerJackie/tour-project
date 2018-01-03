@@ -1,6 +1,6 @@
 package com.jackie.designpattern.factory.multi;
 
-import com.jackie.designpattern.factory.Sender;
+import com.jackie.designpattern.Sender;
 
 /**
  * Created by jackie on 18/1/2.

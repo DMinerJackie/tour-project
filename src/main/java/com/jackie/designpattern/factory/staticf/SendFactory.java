@@ -1,8 +1,8 @@
 package com.jackie.designpattern.factory.staticf;
 
-import com.jackie.designpattern.factory.MailSender;
-import com.jackie.designpattern.factory.Sender;
-import com.jackie.designpattern.factory.SmsSender;
+import com.jackie.designpattern.MailSender;
+import com.jackie.designpattern.Sender;
+import com.jackie.designpattern.SmsSender;
 
 /**
  * Created by jackie on 18/1/3.
